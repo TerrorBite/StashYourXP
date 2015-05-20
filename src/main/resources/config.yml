@@ -1,0 +1,12 @@
+# A Bottle O' Enchanting releases 3 - 11 experience when broken (an average of 7).
+# To match this value, the plugin takes 7 experience from a player to fill a single bottle.
+# Setting the value below will cause extra experience to be taken from a player, effectively
+# charging the player a fee for the privilege of storing their experience.
+# For example, a value of 3 will take 10 experience from the player per bottle filled (7+3=10).
+expLoss: 0
+
+# Give the player an instruction manual when they complete the structure
+giveBook: true
+
+# The material to use as fuel
+fuel: GLOWSTONE_DUST
